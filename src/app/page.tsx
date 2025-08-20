@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col justify-center items-center h-dvh border-b-4 border-b-black">
-        <div className="text-5xl font-medium">Hi! I'm Akshit.</div>
+        <div className="text-5xl font-medium">Hi! I&apos;m Akshit.</div>
         <div className="text-2xl text-center mt-2">I am a software developer.</div>
         <div className="text-2xl text-center">I mostly work with Javascript & Typescript.</div>
         <div className="text-2xl text-center">I also develop cross-platform applications for mobile devices such as iPhones, iPads and Android devices.</div>
