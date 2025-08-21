@@ -14,7 +14,7 @@ export default function Home() {
         <div className="mt-3 flex flex-row gap-2">
           <Link href="https://github.com/akshit5230" rel="noopener noreferrer" target="_blank">
             <Image
-              src="/github.svg"
+              src="/images/github.svg"
               alt="Github logo"
               width={30}
               height={30}
@@ -23,7 +23,7 @@ export default function Home() {
           </Link>
           <Link href="https://stackoverflow.com/users/6025307" rel="noopener noreferrer" target="_blank">
             <Image
-              src="/stackoverflow.svg"
+              src="/images/stackoverflow.svg"
               alt="Stackoverflow logo"
               width={30}
               height={30}
@@ -32,7 +32,7 @@ export default function Home() {
           </Link>
           <Link href="https://www.youtube.com/@thetypescriptdeveloper" rel="noopener noreferrer" target="_blank">
             <Image
-              src="/youtube.svg"
+              src="/images/youtube.svg"
               alt="Youtube logo"
               width={30}
               height={30}
@@ -41,7 +41,7 @@ export default function Home() {
           </Link>
           <Link href="https://steamcommunity.com/id/akshit5230" rel="noopener noreferrer" target="_blank">
             <Image
-              src="/steam.svg"
+              src="/images/steam.svg"
               alt="Steam logo"
               width={30}
               height={30}

@@ -23,7 +23,7 @@ export default function Navbar() {
           <div className="flex flex-row items-center sm:mr-6">
             <Image
               // style={{ marginTop: -5 }}
-              src="/akshit_avatar.png"
+              src="/images/akshit_avatar.png"
               alt="Akshit"
               width={50}
               height={50}
