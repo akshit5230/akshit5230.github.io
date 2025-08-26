@@ -32,14 +32,17 @@ export default function Navbar() {
             <div className="font-medium text-2xl">akshit5230</div>
           </div>
           <div className="hidden sm:flex md:flex-row gap-4">
-            <Link href="/link1" className="hover:underline">
+            <Link href="#inventions" className="hover:underline">
               Inventions
             </Link>
-            <Link href="/link2" className="hover:underline">
+            <Link href="#tutorials" className="hover:underline">
               Tutorials
             </Link>
-            <Link href="/link3" className="hover:underline">
+            <Link href="#repositories" className="hover:underline">
               Repositories
+            </Link>
+            <Link href="#vacations" className="hover:underline">
+              Vacations
             </Link>
           </div>
         </section>
