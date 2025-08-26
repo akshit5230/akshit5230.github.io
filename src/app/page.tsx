@@ -163,8 +163,8 @@ export default function Home() {
         <div className="mt-10 text-4xl sm:text-5xl">My YT Tutorials :)</div>
         <iframe 
           className="mb-20 tutorial_frame"
-          // width="560" 
-          // height="315" 
+          width="560" 
+          height="315" 
           src="https://www.youtube.com/embed/videoseries?si=Rx__kmpC-BYGhVnC&amp;list=PLuD-QWsDG-elW9JyCrN3-GWGw979IO0se" 
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
