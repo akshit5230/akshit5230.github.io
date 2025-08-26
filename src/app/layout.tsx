@@ -23,6 +23,10 @@ const fredoka = Fredoka({
 export const metadata: Metadata = {
   title: "Akshit W",
   description: "Portfolio website developed with nextJS",
+  icons: {
+    icon: 'favicon.ico',
+    apple: 'favicon.ico',
+  }
 };
 
 export default function RootLayout({
