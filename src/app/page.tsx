@@ -7,6 +7,7 @@ import EmblaCarouselInventions from "@/components/EmblaCarouselInventions";
 import { EmblaOptionsType } from 'embla-carousel'
 import '../css/embla.css';
 import EmblaCarouselTutorials from "@/components/EmblaCarouselTutorials";
+import MapChart from "@/components/Travel";
 
 const OPTIONS: EmblaOptionsType = { loop: true }
 const SLIDE_COUNT = 5
@@ -185,6 +186,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center h-svh">
         <div className="mt-10 text-4xl sm:text-5xl">My Vacations :)</div>
+        <MapChart />
       </div>
     </>
   )

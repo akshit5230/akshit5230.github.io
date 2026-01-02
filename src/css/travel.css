@@ -1,0 +1,40 @@
+.TravelMap {
+    background-color: #f4f4f5;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vmin;
+    color: #ffffff;
+    padding: 10vmin 1rem;
+
+    .tooltip-white {
+        /* color: #222;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #00a9f4; */
+        max-width: 200px;
+        .tooltip-arrow-white {
+            /* border: 1px solid #00a9f4;
+            border-top: 0px;
+            border-left: 0px; */
+        }
+    }
+}
+
+.TravelMap-title {
+    font-size: 4vmin;
+}
+
+.TravelMap-title-2 {
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+}
+
+.Tooltip-title {
+    font-size: 2.5vmin;
+}
+
+.Tooltip-desc {
+    font-size: 1.5vmin;
+}

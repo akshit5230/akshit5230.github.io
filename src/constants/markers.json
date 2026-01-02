@@ -1,0 +1,122 @@
+[
+    {
+        "coordinates": {
+            "lat": 12.2958, "lng": 76.6394
+        },
+        "city": "Mysore", 
+        "state": "KA",
+        "country": "IN",
+        "desc": "I visited Mysuru in June 2022 for a family trip.",
+        "visitedDate": "June 2022"
+    },
+    {
+        "coordinates": {
+            "lat": 12.9716, "lng": 77.5946
+        },
+        "city": "Bengaluru", 
+        "state": "KA",
+        "country": "IN",
+        "desc": "I visited Bengaluru in June 2022 for a family trip.",
+        "visitedDate": "June 2022"
+    },
+    {
+        "coordinates": {
+            "lat": 12.4244, "lng": 75.7382
+        },
+        "city": "Madikeri", 
+        "state": "KA",
+        "country": "IN",
+        "desc": "I visited Madikeri in June 2022 for a family trip.",
+        "visitedDate": "June 2022"
+    },
+    {
+        "coordinates": {
+            "lat": 11.4102, "lng": 76.6950
+        },
+        "city": "Ooty", 
+        "state": "TN",
+        "country": "IN",
+        "desc": "I visited Ooty in June 2022 for a family trip.",
+        "visitedDate": "June 2022"
+    },
+    {
+        "coordinates": {
+            "lat": 21.1458, "lng": 79.0882
+        },
+        "city": "Nagpur", 
+        "state": "MH",
+        "country": "IN",
+        "desc": "Nagpur is my hometown. I was born and raised here and have stayed for more than 15 years in the city",
+        "visitedDate": "Hometown"
+    },
+    {
+        "coordinates": {
+            "lat": 18.5204, "lng": 73.8567
+        },
+        "city": "Pune", 
+        "state": "MH",
+        "country": "IN",
+        "desc": "I live in Pune since 2018.",
+        "visitedDate": "Home"
+    },
+    {
+        "coordinates": {
+            "lat": 19.0760, "lng": 72.8777
+        },
+        "city": "Mumbai", 
+        "state": "MH",
+        "country": "IN",
+        "desc": "Mumbai is a place where we visit at the time of holidays. I've been there many times.",
+        "visitedDate": "Oct 2020"
+    },
+    {
+        "coordinates": {
+            "lat": 20.7002, "lng": 77.0082
+        },
+        "city": "Akola", 
+        "state": "MH",
+        "country": "IN",
+        "desc": "I've stayed here for about a year in 2006.",
+        "visitedDate": "Apr 2006"
+    },
+    {
+        "coordinates": {
+            "lat": 19.8762, "lng": 75.3433
+        },
+        "city": "Aurangabad", 
+        "state": "MH",
+        "country": "IN",
+        "desc": "I've been here a few times when I was staying in Jalna.",
+        "visitedDate": "Jan 2006"
+    },
+    {
+        "coordinates": {
+            "lat": 20.5292, "lng": 76.1842
+        },
+        "city": "Buldhana", 
+        "state": "MH",
+        "country": "IN",
+        "desc": "I've stayed in a village that comes under Buldhana for about a year in 2005.",
+        "visitedDate": "May 2005"
+    },
+    {
+        "coordinates": {
+            "lat": 19.9975, "lng": 73.7898
+        },
+        "city": "Nashik", 
+        "state": "MH",
+        "country": "IN",
+        "desc": "I had visited Nashik a few years back.",
+        "visitedDate": "Jan 2008"
+    },
+    {
+        "coordinates": {
+            "lat": 15.2209, "lng": 73.9290
+        },
+        "city": "Goa", 
+        "state": "GA",
+        "country": "IN",
+        "desc": "Goa is my go to vacation place. Although I haven't been there many times, I am always ready to go to Goa to have fun.",
+        "visitedDate": "Feb 2023"
+    }
+]
