@@ -38,11 +38,11 @@ export default function Navbar() {
             <Link href="#tutorials" className="hover:underline">
               Tutorials
             </Link>
-            <Link href="#repositories" className="hover:underline">
+            {/* <Link href="#repositories" className="hover:underline">
               Repositories
-            </Link>
-            <Link href="#vacations" className="hover:underline">
-              Vacations
+            </Link> */}
+            <Link href="#projects" className="hover:underline">
+              Projects
             </Link>
           </div>
         </section>

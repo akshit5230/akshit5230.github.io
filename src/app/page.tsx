@@ -2,15 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
-import useEmblaCarousel from 'embla-carousel-react'
 import EmblaCarouselInventions from "@/components/EmblaCarouselInventions";
 import { EmblaOptionsType } from 'embla-carousel'
 import '../css/embla.css';
-import EmblaCarouselTutorials from "@/components/EmblaCarouselTutorials";
 import MapChart from "@/components/Travel";
 
 const OPTIONS: EmblaOptionsType = { loop: true }
-const SLIDE_COUNT = 5
 const INVENTIONS = [
   {
     index: 0,
@@ -56,10 +53,8 @@ const INVENTIONS = [
     link: 'https://www.instructables.com/Simple-Turn-Any-Headphone-into-Wireless-Headset/'
   }
 ]
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 export default function Home() {
-  const [emblaRef] = useEmblaCarousel()
   return (
     <>
       <div className="flex flex-col justify-center items-center h-svh px-4">
@@ -136,7 +131,6 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center pb-10">
         <div className="mt-10 text-4xl sm:text-5xl">My Medium Blogs :)</div>
-        {/* <EmblaCarouselTutorials slides={[INVENTIONS[0]]} options={OPTIONS} /> */}
         <a className="flex flex-col items-center mt-15 mb-10" target="_blank" href="https://medium.com/@akshit5230">
           <Image
             className="medium-blogs"
@@ -184,9 +178,20 @@ export default function Home() {
           />
         </svg>
       </div>
-      <div className="flex justify-center items-center h-svh">
-        <div className="mt-10 text-4xl sm:text-5xl">My Vacations :)</div>
-        <MapChart />
+      <div id="projects" className="flex flex-col items-center h-svh">
+        <div className="mt-10 text-4xl sm:text-5xl">My Projects :)</div>
+        <div className="mt-10 w-full md:w-1/2">
+          <Image
+            src="/images/pairedplay.png"
+            alt="Paired Play"
+            width={800}
+            height={480}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className="rounded-2xl shadow-lg w-full h-auto"
+            
+          />
+          <div className="text-lg sm:text-xl text-center mt-10"><a className="hover:underline font-medium" target="_blank" href="https://chromewebstore.google.com/detail/pairedplay-watch-together/oinfhldbleepfeopeeighekoaicagfne?hl=en">Paired Play - Watch Together</a> is a chrome extension built for people who want to watch their favourite shows together.</div>
+        </div>
       </div>
     </>
   )

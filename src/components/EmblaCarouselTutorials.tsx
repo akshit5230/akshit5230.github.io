@@ -6,7 +6,6 @@ import {
   usePrevNextButtons
 } from './EmblaCarouselArrowButtons'
 import useEmblaCarousel from 'embla-carousel-react'
-import Image from 'next/image'
 
 type PropType = {
   slides: { index: number; image: string; title: string; link?: string }[]
