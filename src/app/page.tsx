@@ -54,6 +54,27 @@ const INVENTIONS = [
   }
 ]
 
+const PROJECTS = [
+  {
+    index: 0,
+    image: "/images/pairedplay.png",
+    title: 'PairedPlay - Chrome Extension',
+    link: 'https://chromewebstore.google.com/detail/pairedplay-watch-together/oinfhldbleepfeopeeighekoaicagfne?hl=en'
+  },
+  {
+    index: 1,
+    image: "/images/tingly_pdf.png",
+    title: 'Tingly PDF - Android App',
+    link: 'https://play.google.com/store/apps/details?id=com.tinglyraccoon.tinglypdf'
+  },
+  {
+    index: 2,
+    image: '/images/npm-logo.png',
+    title: 'Notification Channels (npm package)',
+    link: 'https://www.npmjs.com/package/react-native-notification-channels'
+  }
+]
+
 export default function Home() {
   return (
     <>
@@ -180,18 +201,7 @@ export default function Home() {
       </div>
       <div id="projects" className="flex flex-col items-center h-svh">
         <div className="mt-10 text-4xl sm:text-5xl">My Projects :)</div>
-        <div className="mt-10 w-full md:w-1/2">
-          <Image
-            src="/images/pairedplay.png"
-            alt="Paired Play"
-            width={800}
-            height={480}
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className="rounded-2xl shadow-lg w-full h-auto"
-            
-          />
-          <div className="text-lg sm:text-xl text-center mt-10"><a className="hover:underline font-medium" target="_blank" href="https://chromewebstore.google.com/detail/pairedplay-watch-together/oinfhldbleepfeopeeighekoaicagfne?hl=en">Paired Play - Watch Together</a> is a chrome extension built for people who want to watch their favourite shows together.</div>
-        </div>
+        <EmblaCarouselInventions slides={PROJECTS} options={OPTIONS} />
       </div>
     </>
   )
