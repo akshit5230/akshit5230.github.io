@@ -9,11 +9,8 @@ import markerData from '../constants/markers.json';
 import LocationPin from "./location-pin";
 import { Tooltip } from 'react-tooltip';
 import IndiaTopo from '../constants/geo-in.json';
-import IndiaGeo from '../constants/india.json';
 
 // const geoUrl = "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-50m.json";
-
-const indiaUrl = "geo-in.json"
 
 const travelledStates = [
     'Maharashtra', 'Karnataka', 'Tamil Nadu', 'Goa'

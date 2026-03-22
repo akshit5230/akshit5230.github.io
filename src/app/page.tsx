@@ -5,7 +5,6 @@ import "./globals.css";
 import EmblaCarouselInventions from "@/components/EmblaCarouselInventions";
 import { EmblaOptionsType } from 'embla-carousel'
 import '../css/embla.css';
-import MapChart from "@/components/Travel";
 
 const OPTIONS: EmblaOptionsType = { loop: true }
 const INVENTIONS = [
