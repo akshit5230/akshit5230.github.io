@@ -198,7 +198,7 @@ export default function Home() {
           />
         </svg>
       </div>
-      <div id="projects" className="flex flex-col items-center h-svh">
+      <div id="projects" className="flex flex-col items-center">
         <div className="mt-10 text-4xl sm:text-5xl">My Projects :)</div>
         <EmblaCarouselInventions slides={PROJECTS} options={OPTIONS} />
       </div>
